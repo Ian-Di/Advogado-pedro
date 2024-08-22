@@ -552,7 +552,6 @@ html{
     }
     
     .header .img{
-        display: block;
         width: 350px;
         overflow: hidden;
         white-space: nowrap;
@@ -612,7 +611,7 @@ html{
     }
     
     .serv h1{
-        font-size: 5vh;
+        font-size: 4vh;
     }
     
     .cards{
