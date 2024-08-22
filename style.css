@@ -569,7 +569,7 @@ html{
         white-space: nowrap;
         overflow: hidden;
         position: relative;
-        top: 30px;
+        top: 40px;
         right: 60px;
         height: 42vh;
     }
@@ -613,7 +613,7 @@ html{
     }
     
     .serv{
-        padding: 30px 20px;
+        padding: 30px 10px;
         gap: 40px;
         width: 300px;
     }
