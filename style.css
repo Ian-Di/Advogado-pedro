@@ -593,7 +593,7 @@ html{
     .text-about{
         display: flex;
         flex-direction: column;
-        width: 340px;
+        width: 350px;
         gap: 30px;
         color: #EDC98F;
     }
@@ -606,7 +606,7 @@ html{
     }
     
     .text-about p{
-        font-size: 2.5vh;
+        font-size: 2vh;
         font-family: "Poppins", sans-serif;
         font-weight: 300;
         font-style: normal;
@@ -666,6 +666,13 @@ html{
     
     .bar-serv{
         width: 320px;
+    }
+
+    .bar-serv summary{
+        font-size: 2vh;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-style: normal;
     }
     
     .p4{
