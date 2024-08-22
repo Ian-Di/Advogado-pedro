@@ -569,9 +569,9 @@ html{
         white-space: nowrap;
         overflow: hidden;
         position: relative;
-        top: 15px;
-        right: 30px;
-        height: 44vh;
+        top: 20px;
+        right: 0px;
+        height: 45vh;
     }
     
     .p2{
