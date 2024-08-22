@@ -541,7 +541,7 @@ html{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 700px;
+        height: 650px;
     }
     
     .text-header{
@@ -569,8 +569,8 @@ html{
         white-space: nowrap;
         overflow: hidden;
         position: relative;
-        top: 10px;
-        right: 50px;
+        top: 15px;
+        right: 30px;
         height: 44vh;
     }
     
