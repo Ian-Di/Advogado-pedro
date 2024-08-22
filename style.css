@@ -537,7 +537,7 @@ html{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 600px;
+        height: 580px;
     }
     
     .text-header{
@@ -557,7 +557,7 @@ html{
     }
     
     .header .img{
-        width: 350px;
+        width: 360px;
         overflow: hidden;
         white-space: nowrap;
     }
@@ -568,7 +568,7 @@ html{
         position: relative;
         top: 62px;
         right: 45px;
-        height: 40vh;
+        height: 60vh;
     }
     
     .p2{
