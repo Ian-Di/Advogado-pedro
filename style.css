@@ -553,7 +553,7 @@ html{
     
     .header .img{
         display: block;
-        width: 400px;
+        width: 350px;
         overflow: hidden;
         white-space: nowrap;
     }
