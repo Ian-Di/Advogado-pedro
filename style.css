@@ -470,7 +470,7 @@ html{
         font-family: "Lato", sans-serif;
         font-weight: 300;
         font-style: normal;
-        letter-spacing: 4vh;
+        letter-spacing: 3vh;
         color: #02202B;
     }
     
@@ -552,6 +552,8 @@ html{
     }
     
     .header .img{
+        display: block;
+        width: 300px;
         overflow: hidden;
         white-space: nowrap;
     }
@@ -560,9 +562,9 @@ html{
         white-space: nowrap;
         overflow: hidden;
         position: relative;
-        top: 40px;
+        top: 45px;
         right: 60px;
-        height: 42vh;
+        height: 40vh;
     }
     
     .p2{
@@ -604,7 +606,7 @@ html{
     }
     
     .serv{
-        padding: 30px 10px;
+        padding: 30px 20px;
         gap: 40px;
         width: 300px;
     }
@@ -700,7 +702,7 @@ html{
     .link-list{
         display: flex;
         flex-direction: column;
-        width: 250px;
+        width: 220px;
         gap: 5px;
     }
     
