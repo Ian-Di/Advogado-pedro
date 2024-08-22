@@ -1,0 +1,712 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.area1{
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 10px 0px;
+    
+
+    background: rgb(222,185,125);
+    background: radial-gradient(circle, rgba(222,185,125,1) 0%, rgba(130,114,88,1) 100%);
+}
+
+.text{
+    display: flex;
+}
+
+.area1 h1{
+    margin: 0px 20px;
+    position: relative;
+
+    font-size: 3vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #02202B;
+
+    animation: move-left 20s infinite linear;
+}
+
+.area2{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+    background: rgb(222,185,125);
+    background: radial-gradient(circle, rgba(222,185,125,1) 0%, rgba(130,114,88,1) 100%);
+}
+
+.area2 h1{
+    font-size: 13vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 10vh;
+    color: #02202B;
+}
+
+.botton a{
+    padding: 10px 50px;
+    background-color: #EDC98F;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgb(0, 0, 0) ;
+
+    color: white;
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.botton a:hover{
+    transition: 0.5s linear;
+    background-color: white;
+    color: #EDC98F;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+    background-color: #02202b;
+}
+
+.nav-bar img{
+    height: 8vh;
+}
+
+.nav-list{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-list a{
+    padding: 5px;
+    border-radius: 5px ;
+    color: #EDC98F;
+    text-decoration: none;
+    font-size: 3vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+.nav-list a:hover{
+    background-color: #063749;
+    transition: 0.5s linear;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 0px 80px;
+
+    background-image: url(./assets/Mask\ group.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+
+.text-header{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    gap: 30px;
+    color: #EDC98F;
+}
+
+.text-header h2{
+    font-size: 6.5vh; 
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.text-header p{
+    font-size: 2.5vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.text-header h2 strong{
+    font-weight: 400;
+}
+
+.text-header img{
+    height: 11vh;
+}
+
+.p2{
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(./assets/2151184652\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 105%; 
+   
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+
+    padding: 200px 170px;
+}
+
+.about-img img{
+    display: flex;
+    background-image: url(./assets/istockphoto-1346156607-2048x2048-transformed\ 1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.text-about{
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    gap: 30px;
+    color: #EDC98F;
+}
+
+.text-about h2{
+    font-size: 8vh; 
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.text-about p{
+    font-size: 2.5vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.serv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px auto;
+    padding: 60px 80px;
+    gap: 40px;
+
+    width: 800px;
+
+    background-color: #EDC98F;
+    box-shadow: 15px 15px 40px #000000, -2px -2px 5px white;
+    border: 2px solid  #efc176;
+
+    border-radius: 10px;
+    color: #02202B;
+
+}
+
+.serv h1{
+    font-size: 9vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 60px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+
+
+    background-color: rgba(255, 255, 255, 0.156);
+    box-shadow: 0px 6px 20px rgb(0, 0, 0) ;
+    border-radius: 18px;
+}
+
+.card h3{
+    font-size: 2.7vh; 
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.card P{
+    font-size: 2vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card:nth-child(1){
+    background-image: url(./assets/icons8-relógio-antigo-96.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 200px 80px;
+} 
+
+.card:nth-child(2){
+    background-image: url(./assets/icons8-maleta-de-médico-96\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 200px 80px;
+} 
+
+.card:nth-child(3){
+    background-image: url(./assets/icons8-avião-100\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 200px 80px;
+} 
+
+.card:nth-child(4){
+    background-image: url(./assets/icons8-dinheiro-100.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 200px 80px;
+} 
+
+.p3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 90px;
+    padding: 100px;
+    background-color: #02202B;
+}
+
+.p3 h1{
+    font-size: 9vh; 
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #EDC98F;
+}
+
+.more-serv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.bar-serv{
+    display: flex;
+    padding: 20px;
+    width: 700px;
+
+    background-color: white;
+    box-shadow: 0px 3px 5px rgb(0, 0, 0) ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bar-serv summary{
+    font-size: 3vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bar-serv p{
+    font-size: 2.5vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.p4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 70px 0px;
+    gap: 60px;
+    
+    background-image: url(./assets/2151008434\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.p4 h2{
+    font-size: 5vh; 
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #EDC98F;
+}
+
+.p4 strong{
+    font-weight: 400;
+}
+
+.maps{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.maps h3{
+    font-size: 2.5vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    color: #EDC98F;
+}
+
+.inform{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.card-links{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.link-list{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 5px;
+}
+
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 3vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    color: #EDC98F;
+}
+
+.link img{
+    height: 5vh;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    font-size: 2vh;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #EDC98F;
+
+    background-color: #02202B;
+}
+
+@keyframes move-left {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
+    }
+}
+
+@media screen and (width < 560px){
+    .area1{
+        display: flex;
+        justify-content: space-between;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 10px 0px;
+        
+    
+        background: rgb(222,185,125);
+        background: radial-gradient(circle, rgba(222,185,125,1) 0%, rgba(130,114,88,1) 100%);
+    }
+    
+    .text{
+        display: flex;
+    }
+    
+    .area1 h1{
+        margin: 0px 20px;
+        position: relative;
+    
+        font-size: 3vh;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #02202B;
+    
+        animation: move-left 20s infinite linear;
+    }
+    
+    .area2{
+        display: flex;
+        justify-content: center;
+        
+        background: rgb(222,185,125);
+        background: radial-gradient(circle, rgba(222,185,125,1) 0%, rgba(130,114,88,1) 100%);
+    }
+    
+    .area2 h1{
+        font-size: 6vh;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 4vh;
+        color: #02202B;
+    }
+    
+    .botton a{
+        padding: 10px 50px;
+        background-color: #EDC98F;
+        border-radius: 10px;
+        box-shadow: 0px 3px 5px rgb(0, 0, 0) ;
+    
+        color: white;
+        text-decoration: none;
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+    
+    .botton a:hover{
+        transition: 0.5s linear;
+        background-color: white;
+        color: #EDC98F;
+    }
+    
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 10px;
+    
+        background-color: #02202b;
+    }
+    
+    .nav-bar img{
+        height: 8vh;
+    }
+    
+    .nav-list{
+        display: none;
+        gap: 50px;
+    }
+    
+    .nav-list a{
+        padding: 5px;
+        border-radius: 5px ;
+        color: #EDC98F;
+        text-decoration: none;
+        font-size: 3vh;
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        
+    }
+    
+    .header{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 60px 20px;
+    
+        background-image: url(./assets/Mask\ group.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 540px;
+    }
+    
+    .text-header{
+        width: 330px;
+        gap: 20px;
+    }
+    
+    .text-header h2{
+        font-size: 5vh; 
+    }
+    
+    .text-header p{
+        font-size: 2.5vh;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+    
+    
+    .header img{
+        position: relative;
+        top: 10px;
+        right: 30px;
+        height: 44vh;
+    }
+    
+    .p2{
+        background-size: 555%; 
+       
+    }
+    
+    .about{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    
+        padding: 100px 20px;
+    }
+    
+    .about-img img{
+        border-radius: 20px;
+        height: 50vh;
+    }
+    
+    .text-about{
+        display: flex;
+        flex-direction: column;
+        width: 330px;
+        gap: 30px;
+        color: #EDC98F;
+    }
+    
+    .text-about h2{
+        font-size: 8vh; 
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    .text-about p{
+        font-size: 2.5vh;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    .serv{
+        padding: 30px 20px;
+        gap: 40px;
+        width: 300px;
+    }
+    
+    .serv h1{
+        font-size: 5vh;
+    }
+    
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
+    }
+    
+    .card:nth-child(1){
+        background-image: url(./assets/icons8-relógio-antigo-96.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 150px 80px;
+    } 
+    
+    .card:nth-child(2){
+        background-image: url(./assets/icons8-maleta-de-médico-96\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 150px 80px;
+    } 
+    
+    .card:nth-child(3){
+        background-image: url(./assets/icons8-avião-100\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 150px 80px;
+    } 
+    
+    .card:nth-child(4){
+        background-image: url(./assets/icons8-dinheiro-100.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 150px 80px;
+    } 
+    
+    .p3{
+        padding: 60px 20px;
+    }
+    
+    .p3 h1{
+        font-size: 5vh; 
+    }
+    
+    .bar-serv{
+        width: 320px;
+    }
+    
+    .p4{
+        padding: 20px 70px ;
+        gap: 30px;
+    }
+
+    .p4 h2{
+        font-size: 4vh;
+        text-align: center; 
+    }
+    
+    .p4 strong{
+        font-weight: 400;
+    }
+
+    .maps iframe{
+        width: 350px;
+    }
+    
+    .inform{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .card-links{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 30px;
+    }
+    
+    .link-list{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        gap: 5px;
+    }
+    
+    .link a{
+        font-size: 3vh;
+    }
+    
+    .footer{
+        font-size: 1.5vh;
+    }
+}
