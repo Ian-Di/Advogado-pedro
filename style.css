@@ -545,7 +545,7 @@ html{
     }
     
     .text-header{
-        width: 350px;
+        width: 370px;
         gap: 20px;
     }
     
@@ -570,8 +570,8 @@ html{
         overflow: hidden;
         position: relative;
         top: 20px;
-        right: 0px;
-        height: 45vh;
+        right: 60px;
+        height: 42vh;
     }
     
     .p2{
