@@ -545,7 +545,7 @@ html{
     }
     
     .text-header{
-        width: 330px;
+        width: 350px;
         gap: 20px;
     }
     
@@ -562,9 +562,11 @@ html{
     
     
     .header img{
+        white-space: nowrap;
+        overflow: hidden;
         position: relative;
         top: 10px;
-        right: 30px;
+        right: 50px;
         height: 44vh;
     }
     
@@ -582,19 +584,19 @@ html{
     
     .about-img img{
         border-radius: 20px;
-        height: 50vh;
+        height: 40vh;
     }
     
     .text-about{
         display: flex;
         flex-direction: column;
-        width: 330px;
+        width: 340px;
         gap: 30px;
         color: #EDC98F;
     }
     
     .text-about h2{
-        font-size: 8vh; 
+        font-size: 7vh; 
         font-family: "Lato", sans-serif;
         font-weight: 300;
         font-style: normal;
