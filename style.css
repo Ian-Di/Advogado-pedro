@@ -532,7 +532,7 @@ html{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 620px;
+        height: 600px;
     }
     
     .text-header{
@@ -562,7 +562,7 @@ html{
         overflow: hidden;
         position: relative;
         top: 55px;
-        right: 60px;
+        right: 52px;
         height: 40vh;
     }
     
