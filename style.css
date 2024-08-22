@@ -427,15 +427,6 @@ html{
     background-color: #02202B;
 }
 
-@keyframes move-left {
-    from {
-      left: 0%;
-    }
-    to {
-      left: -100%;
-    }
-}
-
 @media screen and (width < 560px){
     .area1{
         display: flex;
@@ -541,7 +532,7 @@ html{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 650px;
+        height: 620px;
     }
     
     .text-header{
@@ -669,10 +660,14 @@ html{
     }
 
     .bar-serv summary{
-        font-size: 2vh;
+        font-size: 2.5vh;
         font-family: "Lato", sans-serif;
         font-weight: 500;
         font-style: normal;
+    }
+
+    .bar-serv p{
+        font-size: 2vh;
     }
     
     .p4{
@@ -703,14 +698,13 @@ html{
     .card-links{
         display: flex;
         align-items:start;
-        justify-content: ;
         gap: 30px;
     }
     
     .link-list{
         display: flex;
         flex-direction: column;
-        width: 280px;
+        width: 250px;
         gap: 5px;
     }
     
@@ -720,5 +714,14 @@ html{
     
     .footer{
         font-size: 1vh;
+    }
+}
+
+@keyframes move-left {
+    from {
+      left: 0%;
+    }
+    to {
+      left: -100%;
     }
 }
