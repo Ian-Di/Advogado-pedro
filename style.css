@@ -541,7 +541,7 @@ html{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 800px;
+        height: 700px;
     }
     
     .text-header{
@@ -560,6 +560,10 @@ html{
         font-style: normal;
     }
     
+    .header .img{
+        overflow: hidden;
+        white-space: nowrap;
+    }
     
     .header img{
         white-space: nowrap;
@@ -571,7 +575,7 @@ html{
     }
     
     .p2{
-        background-size: 555%; 
+        background-size: 855%; 
        
     }
     
