@@ -74,6 +74,14 @@ html{
     color: #EDC98F;
 }
 
+.botton-mob a{
+    display: none;
+}
+
+.botton-flut{
+    display: none;
+}
+
 .nav-bar{
     display: flex;
     align-items: center;
@@ -479,11 +487,17 @@ html{
         color: #02202B;
     }
     
-    .botton a{
+    .botton{
+        display: none;
+    }
+
+    .botton-mob a{
+        display: grid;
         padding: 10px 50px;
         background-color: #EDC98F;
         border-radius: 10px;
         box-shadow: 0px 3px 5px rgb(0, 0, 0) ;
+        width: 85px;
     
         color: white;
         text-decoration: none;
@@ -491,13 +505,32 @@ html{
         font-family: "Poppins", sans-serif;
         font-weight: 600;
     }
-    
-    .botton a:hover{
+
+    .botton-mob a:hover{
         transition: 0.5s linear;
         background-color: white;
         color: #EDC98F;
     }
     
+    .botton-flut{
+        display: block;
+        position: fixed;
+        top: 550px;
+        right: 30px;
+    }
+
+    .botton-flut img{
+        padding: 10px;
+        background: rgb(222,185,125);
+        background: radial-gradient(circle, rgba(222,185,125,1) 0%, rgba(130,114,88,1) 100%);
+        border-radius: 50%;
+    }
+
+    .botton-flut img{
+        height: 7vh;
+    }
+
+
     .nav-bar{
         display: flex;
         align-items: center;
