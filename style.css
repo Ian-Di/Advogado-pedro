@@ -533,7 +533,7 @@ html{
         grid-template-columns: repeat(1,1fr);
         padding: 60px 20px;
     
-        background-image: url(./assets/Mask\ group.png);
+        background-image: url(./assets/Mask\ group02.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -556,19 +556,8 @@ html{
         font-style: normal;
     }
     
-    .header .img{
-        width: 360px;
-        overflow: hidden;
-        white-space: nowrap;
-    }
-    
     .header img{
-        white-space: nowrap;
-        overflow: hidden;
-        position: relative;
-        top: 62px;
-        right: 60px;
-        height: 40vh;
+        display: none;
     }
     
     .p2{
