@@ -167,8 +167,7 @@ html{
     background-image: url(./assets/2151184652\ 1.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 105%; 
-   
+    background-size: 150%; 
 }
 
 .about{
@@ -526,7 +525,7 @@ html{
         position: fixed;
         top: 590px;
         right: 30px;
-        background: radial-gradient(circle, rgba(222,185,125,1) 0%, rgba(130,114,88,1) 100%);
+        background: #25D366;
         border-radius: 50%;
     }
 
